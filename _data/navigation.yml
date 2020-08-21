@@ -3,7 +3,7 @@ main:
   - title: "Blog"
     url: https://toycrane.tk
   - title: "Categories"
-    url: /categorices/
+    url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "About"
