@@ -3,9 +3,9 @@ title: "github.io 블로그 시작"
 excert: "3년전 만들어놓은 계정을 이제서야 제대로 사용해 보려한다"
 
 categories:
-  - blog
+  - Blog
 tags:
-  - [github, pages]
+  - blog
 last_modified_at: 2020-08-20T10:32:00-0700
 ---
 

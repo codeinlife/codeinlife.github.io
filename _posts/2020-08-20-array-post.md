@@ -5,8 +5,8 @@ excert: "Javascript coding interview"
 categories:
   - IT
 tags:
-  - github
-  - pages
+  - javascript
+  - code
 last_modified_at: 2020-08-21T10:32:00-0700
 ---
 
