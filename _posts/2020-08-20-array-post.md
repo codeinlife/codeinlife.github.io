@@ -3,10 +3,11 @@ title: "빈도가 제일 높은 단어 찾기"
 excert: "Javascript coding interview"
 
 categories:
-  - blog
+  - IT
 tags:
-  - [github, pages]
-last_modified_at: 2020-08-20T10:32:00-0700
+  - github
+  - pages
+last_modified_at: 2020-08-21T10:32:00-0700
 ---
 
 ## Javascript로 빈도수 높은 단어 찾기
