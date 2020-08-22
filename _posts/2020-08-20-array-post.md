@@ -46,3 +46,25 @@ let getMostOne = function (array) {
 ```
 
 ##### 이거 궁리하는데 20분이상 걸렸다 어휴 코딩 인터뷰 힘들긴하다. 그래도 다행히 원하는 결과값이 반환되긴했다. 이 질문 말고 다른거 4개 더 있었는데 시간 나는대로 한번 포스트해야겠다.
+
+#### python으로 했으면 더 쉬웠을것을
+
+```
+array = ['apple', 'banana', 'grape', 'orange', 'apple']
+
+fruit = {}
+for word in array:
+  if word in fruit:
+    fruit[word] += 1
+  else:
+    fruit[word] = 1
+print(fruit)
+```
+
+#### 반환된 결과값은
+
+```
+{'apple': 2, 'banana': 1, 'grape': 1, 'orange': 1}
+```
+
+#### 이정도만 해도 충분했을듯
