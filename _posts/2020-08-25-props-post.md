@@ -54,6 +54,8 @@ class Person extends React.Component {
 
 #### How do you update a component's state?
 
+State should not be modified directly, but it can be modified with a method called setState().
+
 ```
 // wrong
 this.state.id = "10";
@@ -63,3 +65,5 @@ this.setState({
     id: "10"
 });
 ```
+
+Basically, a functional component can't have a state since there is no "this" keyword but can use useState instead.
