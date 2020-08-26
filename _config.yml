@@ -21,9 +21,9 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Toycrane"
 description: "Am I love Javascript?"
-url: "https://lovethecorners.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://codeinlife.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "lovethecorners/lovethecorners.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "codeinlife/lovethecorners.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/2020-08-19-9APRp6.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute: 200
 comments:
   provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname: "toycranetk" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: "codeinlife" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -112,7 +112,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lovethecorners"
+      url: "https://github.com/codeinlife"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/toycrane.tk/"
