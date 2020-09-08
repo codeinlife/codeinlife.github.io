@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - django
-last_modified_at: 2020-09-07T19:06:00-0700
+last_modified_at: 2020-09-08T19:10:00-0700
 ---
 
 ### Python django 설치 (Mac OS + Python3)
