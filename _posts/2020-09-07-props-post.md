@@ -13,15 +13,15 @@ last_modified_at: 2020-09-07T19:06:00-0700
 ```
 pip install pipenv
 
-mkdir django-app
+mkdir django_app
 
-cd django-app
+cd django_app
 
-pipenv install django==2.1
+pipenv install django==2.2
 
 pipenv shell
 
-django-admin startproject project_name
+django-admin startproject project_name .
 
 python manage.py runserver (to see welcome page)
 
