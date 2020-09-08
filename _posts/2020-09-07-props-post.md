@@ -14,12 +14,12 @@ last_modified_at: 2020-09-07T19:06:00-0700
 pip install pipenv
 ```
 
-next step: create a django project folder
+next step: create a django project folder (for example, dslcode)
 
 ```
-mkdir Project
+mkdir dslcode
 
-cd Project
+cd dslcode
 
 pipenv install django==2.2
 ```
@@ -27,9 +27,9 @@ pipenv install django==2.2
 ```
 pipenv shell
 
-django-admin startproject Project_a .
+django-admin startproject code_project .
 
-python manage.py runserver (to see welcome page)
+python manage.py runserver (to see a welcome page)
 ```
 
 ctrl+c to exit
@@ -42,7 +42,7 @@ python manage.py startapp hello
 
 ### Django 실행하기
 
-next step: open the project's settings.py add the app name (here for example, 'hello')
+next step: open the project's settings.py add the app name (for example, hello)
 
 ```
 INSTALLED_APPS = [
@@ -86,3 +86,9 @@ python manage.py runserver
 ```
 
 check the url for example, http://127.0.0.1:8000/sayHello/
+
+.
+.
+.
+
+exit from pipenv shell
