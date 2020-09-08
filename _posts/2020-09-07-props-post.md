@@ -12,29 +12,37 @@ last_modified_at: 2020-09-07T19:06:00-0700
 
 ```
 pip install pipenv
+```
 
-mkdir django_app
+next step: create a django project folder
 
-cd django_app
+```
+mkdir Project
+
+cd Project
 
 pipenv install django==2.2
+```
 
+```
 pipenv shell
 
-django-admin startproject project_name .
+django-admin startproject Project_a .
 
 python manage.py runserver (to see welcome page)
+```
 
 ctrl+c to exit
 
-python manage.py startapp app_name
+next step: create an app
+
+```
+python manage.py startapp hello
 ```
 
 ### Django 실행하기
 
-open the project's settings.py
-
-then add the app name (here for example, 'hello')
+next step: open the project's settings.py add the app name (here for example, 'hello')
 
 ```
 INSTALLED_APPS = [
@@ -48,7 +56,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-now need to create a view, open the views.py in the app (hello )folder and add these
+next step: create a view, open the views.py in the app (hello) folder and add these
 
 ```
 from django.http import HttpResponse
@@ -57,7 +65,7 @@ def myView(request):
     return HttpResponse('Hello world')
 ```
 
-then add a particular url to the urls.py in the project folder
+next step: add a particular url to the urls.py in the project folder
 
 ```
 from django.contrib import admin
@@ -66,12 +74,12 @@ from hello.views import myView ✅
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sayHello/', myView), ✅
+    path('hello/', myView), ✅
 ]
 
 ```
 
-run django server
+next step: run django server
 
 ```
 python manage.py runserver
