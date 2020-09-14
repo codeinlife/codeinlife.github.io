@@ -33,4 +33,4 @@ cd helloBlog
 bundle exec jekyll serve
 ```
 
-브라우져로 확인해본다.
+브라우저로 확인해본다.
