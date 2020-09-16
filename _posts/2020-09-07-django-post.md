@@ -14,12 +14,12 @@ last_modified_at: 2020-09-08T19:10:00-0700
 pip install pipenv
 ```
 
-next step: create a django project folder (for example, dslcode)
+next step: create a django project folder (for example, Django)
 
 ```
-mkdir dslcode
+mkdir Django
 
-cd dslcode
+cd Django
 
 pipenv install django==2.2
 ```
@@ -27,7 +27,7 @@ pipenv install django==2.2
 ```
 pipenv shell
 
-django-admin startproject code_project .
+django-admin startproject django_project .
 
 python manage.py runserver (to see a welcome page)
 ```
