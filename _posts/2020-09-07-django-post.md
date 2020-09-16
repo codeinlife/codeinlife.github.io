@@ -85,7 +85,7 @@ next step: run django server
 python manage.py runserver
 ```
 
-check the url for example, http://127.0.0.1:8000/sayHello/
+check the url for example, http://127.0.0.1:8000/hello/
 
 .
 .
