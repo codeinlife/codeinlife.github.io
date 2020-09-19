@@ -4,8 +4,8 @@ permalink: /about/
 layout: single
 ---
 
-## lovethecorners.github.io 블로그
+## Blog of codeinlife.github.io
 
-이 블로그는 Github Pages 블로그 서비스인 github.io를 이용해 만들어보는 블로그이다.
+This is Github Pages that is using a github.io
 
-Oracle Cloud + Wordpress로 운영중인 블로그인 <https://toycrane.tk> 도 방문해보자.
+Please check my other blog that using an Oracle Cloud + Wordpress <https://toycrane.tk>

@@ -1,5 +1,5 @@
 ---
-title: "Python Django 설치"
+title: "Install Python Django"
 
 categories:
   - Blog
@@ -8,7 +8,7 @@ tags:
 last_modified_at: 2020-09-08T19:10:00-0700
 ---
 
-### Python django 설치 (Mac OS + Python3)
+### Install python django (Mac OS + Python3)
 
 ```
 pip install pipenv
@@ -40,7 +40,7 @@ next step: create an app
 python manage.py startapp hello
 ```
 
-### Django 실행하기
+### Run django
 
 next step: open the project's settings.py add the app name (for example, hello)
 
